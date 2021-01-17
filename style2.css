@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+
+.form_container {
+	min-height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+form{
+    width: 90%;
+}
+form input{
+    width: 100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius: 10px;
+    border:solid thin grey;
+}
+.name_container{
+    height:70px;
+    /* background-color:#39b027; */
+    background-color: steelblue;
+    position:fixed;
+    width:100%;
+    z-index: 100000000;
+   
+}
+h1{
+    text-align: center;
+    padding-top:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color:#ffff;
+    background-color: steelblue;
+}
+.signup_heading{
+    padding-bottom: 30px;
+}
+
+.insert_message{
+    position: fixed !important;
+    bottom:0;
+    left:50;
+    display:flex;
+    padding:20px;
+    background:white;
+   
+   
+    /* justify-content: space-around; */
+   
+   
+}
+#submit {
+	/* height: 50px; */
+	bottom: 0;
+	/* width: 10%; */
+	position: absolute;
+	/* text-align: center; */
+	margin: 0 auto;
+	float: right;
+	right: 20%;
+	bottom: 39%;
+	cursor: pointer !important;
+}
+.chat_content{
+    position: relative !important;
+    overflow-y: auto !important;
+    
+    margin-bottom: 250px;
+}
+
+.chat_container{
+    background:white;
+    margin-top: 100px;
+   
+  
+}
+@media only screen and (max-width: 720px){
+    .chat_div{
+     
+        width: 80% !important;
+    }
+}
