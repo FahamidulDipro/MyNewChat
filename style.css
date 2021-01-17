@@ -7,7 +7,6 @@
 .form_container{
     min-height: 50vh;
     width: 60%;
-    background-color: azure;
     display: flex;
     flex-direction: column;
     justify-content: center;
