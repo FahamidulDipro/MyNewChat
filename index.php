@@ -32,41 +32,6 @@ include "dbconnect.php";
     <span style="color:brown;font-size:12px;margin-top:20px;">Already have an account? <a href="login.php">Login</a> here</span>
     </div>
     
-
-    <!-- <h2 id="write"></h2> -->
-
-    <!-- <script>
-        function uploadImage(){
-            fetch('signupHandle.php',{
-                method:'POST',
-                body: new FormData(document.querySelector('#frm'))
-            })
-        }
-
-        $('#submit').click(function() {
-            uploadImage();
-            var uname = $('#username').val();
-            var pass = $('#password').val();
-            var cpass = $('#cpassword').val();
-         
-            $.ajax({
-                url: 'signupHandle.php',
-                type: 'POST',
-                data: {
-                    u: uname,
-                    p: pass,
-                    c: cpass,
-                  
-                },
-                success: function(data,result) {
-                    alert("Successfully Sent Data");
-                
-                    // $('#write').html(data);
-                    window.location.href = 'login.php';
-                }
-            });
-        });
-    </script> -->
 </body>
 
 </html>
